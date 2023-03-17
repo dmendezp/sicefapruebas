@@ -18,6 +18,7 @@ Route::middleware(['lang'])->group(function(){
     Route::get('/', [HomeController::class, 'welcome'])->name('cefa.welcome');
     Route::get('/developers', [HomeController::class, 'developers'])->name('cefa.developers');
     Route::get('/home', [HomeController::class, 'index'])->name('cefa.home');
+  
 
     Route::prefix('filemanager')->group(function() {
      \UniSharp\LaravelFilemanager\Lfm::routes();

@@ -1,0 +1,13 @@
+{
+    "name": "Dicsena",
+    "alias": "dicsena",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dicsena\\Providers\\DicsenaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

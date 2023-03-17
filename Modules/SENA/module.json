@@ -1,0 +1,13 @@
+{
+    "name": "SENA",
+    "alias": "sena",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SENA\\Providers\\SENAServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

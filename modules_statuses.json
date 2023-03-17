@@ -7,5 +7,9 @@
     "CEFAMAPS": true,
     "TILABS": true,
     "SENAEMPRESA": true,
-    "CPD": true
+    "CPD": true,
+    "Dicsena": true,
+    "Blog": true,
+    "User": true,
+    "SENA": true
 }
