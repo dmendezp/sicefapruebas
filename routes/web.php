@@ -23,5 +23,7 @@ Route::middleware(['lang'])->group(function(){
      \UniSharp\LaravelFilemanager\Lfm::routes();
  });
 
+ 
+
 });
 
