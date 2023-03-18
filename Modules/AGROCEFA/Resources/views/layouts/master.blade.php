@@ -92,15 +92,18 @@
           </div>
 
           <div class="bottom-content">
-              <li class="">
-                  <a href="#">
+            <li class="">
+                <a href="{{ route('login')}}">
+                    <i class='bx bx-lock-open icon'></i>
+                    <span class="text nav-text">login</span>
+                </a>
+            </li>
+            <li class="">
+                  <a href="{{ route('cefa.welcome')}}">
                       <i class='bx bx-log-out icon' ></i>
-                      <span class="text nav-text">Logout</span>
+                      <span class="text nav-text">SICEFA</span>
                   </a>
-              </li>
-
-            
-              
+              </li> 
           </div>
       </div>
 
