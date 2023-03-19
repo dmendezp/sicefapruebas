@@ -11,6 +11,8 @@
 |
 */
 
-Route::prefix('agroindustria')->group(function() {
-    Route::get('/', 'AGROINDUSTRIAController@index');
+Route::prefix('/agroindustria')->group(function() {
+    Route::get('/index', 'AGROINDUSTRIAController@index');
 });
+
+
