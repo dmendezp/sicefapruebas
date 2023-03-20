@@ -14,7 +14,7 @@
             <h2 class="h2-sub1">
                 <span class="fil">B</span>ienvenido
             </h2>
-            <h1 class="head">Agroindustria</h1>
+            <h1 class="head">Agroindustrial</h1>
             <div class="he-des">
                 <h5>Cefa</h5>
                 <button class="learn-more"> Mas Informacion
