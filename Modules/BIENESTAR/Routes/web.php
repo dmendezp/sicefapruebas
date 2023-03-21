@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('bienestar')->group(function() {
-    Route::get('/', 'BIENESTARController@index');
+Route::prefix('/bienestar')->group(function() {
+    Route::get('/index', 'BIENESTARController@index');
 });
