@@ -12,7 +12,7 @@
     <section class="ganaderia" id="ganaderia">
         <div class="container">
             <h2 class="h2-sub1">
-                <span class="fil">B</span>ienvenido
+                <span class="fil">B</span>ienvenid@s
             </h2>
             <h1 class="head">Agroindustrial</h1>
             <div class="he-des">
