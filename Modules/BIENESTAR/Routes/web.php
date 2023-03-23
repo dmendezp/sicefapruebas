@@ -13,4 +13,12 @@
 
 Route::prefix('/bienestar')->group(function() {
     Route::get('/index', 'BIENESTARController@index');
+
+});
+Route::prefix('/bienestar')->group(function() {
+    Route::get('/APEalimentacion', 'BIENESTARController@APEalimentacion')->name('bienestar.APEalimentacion');
+});
+
+Route::prefix('/bienestar')->group(function() {
+    Route::get('/APEinterno', 'BIENESTARController@APEinterno')->name('bienestar.APEinterno');
 });
