@@ -16,6 +16,14 @@ class BIENESTARController extends Controller
     {
         return view('bienestar::index');
     }
+    public function APEalimentacion()
+    {
+        return view('bienestar::APEalimentacion');
+    }
+    public function APEinterno()
+    {
+        return view('bienestar::APEinterno');
+    }
 
     /**
      * Show the form for creating a new resource.
