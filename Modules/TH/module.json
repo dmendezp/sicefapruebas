@@ -1,0 +1,13 @@
+{
+    "name": "TH",
+    "alias": "th",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TH\\Providers\\THServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
