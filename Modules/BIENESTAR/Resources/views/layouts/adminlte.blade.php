@@ -31,7 +31,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
  </style>
 
   <!--css general-->
-<link rel="stylesheet" href="{{ asset('../css/styles.css') }}">
+<link rel="stylesheet" href="{{ asset('../bienestarxd/css/styles.css') }}">
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -128,7 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('bienestar.APEalimentacion') }}" class="nav-link">
               <i class="fas fa-pizza-slice"></i>
               <p>
                 Alimentacion
@@ -136,7 +136,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('bienestar.APEinterno') }}" class="nav-link">
               <i class="fas fa-house-user"></i>
               <p>
                 Internado
