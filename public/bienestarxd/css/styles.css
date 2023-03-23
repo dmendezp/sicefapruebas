@@ -22,11 +22,6 @@ opacity: 1;
 filter: contrast(120%);
 }
 
-{
-    background-image: url('../img1/a.jpg');
-  
-    
-}
 button {
  position: relative;
  display: flex;
