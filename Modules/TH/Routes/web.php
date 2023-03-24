@@ -13,4 +13,6 @@
 
 Route::prefix('/th')->group(function() {
     Route::get('/index', 'THController@index');
+    Route::get('/contract', 'THController@contract');
+    Route::get('/format', 'THController@format');
 });

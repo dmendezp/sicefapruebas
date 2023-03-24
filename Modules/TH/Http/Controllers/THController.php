@@ -16,6 +16,14 @@ class THController extends Controller
     {
         return view('th::index');
     }
+    public function format()
+    {
+        return view('th::format');
+    }
+    public function contract()
+    {
+        return view('th::contract');
+    }
 
     /**
      * Show the form for creating a new resource.
