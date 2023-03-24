@@ -17,9 +17,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Unidades</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">movimientos</a>
-                </li>
             </ul>
         </div>
     </nav>
