@@ -18,7 +18,7 @@
 
                 <div class="card-body">
                     <table id="datatable" class="table table-sm table-striped" >
-						<thead class="bg-primary text-white">
+						<thead class="bg-success text-white">
                         <tr>
                             <th>Id</th>
                             <th>Documento</th>

@@ -11,16 +11,14 @@
 
         <div class="team_box">
             <div class="profile">
-                <img src="https://marketplace.canva.com/EAE2_HrPNRU/1/0/1600w/canva-mascot-character-twitch-profile-picture-jF0b61iv4pQ.jpg">
+                <img src="https://www.thomsonreuters.com.ar/content/dam/ewp-m/images/argentina/es/artworked-images/contador-del-futuro.jpg.transform/rect-768/q90/image.jpg">
 
                 <div class="info">
                     <h2 class="name">Contador</h2>
                     <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                     <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="far fa-eye fa-lg" style="color: #1e55b3;"></i>
                     </div>
 
                 </div>
@@ -28,16 +26,14 @@
             </div>
 
             <div class="profile">
-                <img src="https://marketplace.canva.com/EAEjwVtGaFM/2/0/1600w/canva-azul-y-negro-limpio-minimalista-imagen-de-perfil-de-twitch-e7SU6tIoyis.jpg">
+                <img src="https://uploads-ssl.webflow.com/5fae79706d8334674145afcd/60d0f685e4661743bd213cb3_Effective-school-administration-supports-databased-decision-making_896_6065058_0_14102171_1000.jpeg">
 
                 <div class="info">
                     <h2 class="name">Administrador Talento Humano</h2>
                     <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                     <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="far fa-eye fa-lg" style="color: #1e55b3;"></i>
                     </div>
 
                 </div>
@@ -45,16 +41,14 @@
             </div>
 
             <div class="profile">
-                <img src="https://ehorus.com/wp-content/uploads/2018/06/administrador-de-sistemas-featured.png">
+                <img src="https://ingeniia.com/wp-content/uploads/2022/07/01-Blog-UL-15-1200x600.png">
 
                 <div class="info">
                     <h2 class="name">Administrador Gestion de calidad</h2>
                     <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                     <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="far fa-eye fa-lg" style="color: #1e55b3;"></i>
                     </div>
 
                 </div>
@@ -62,16 +56,14 @@
             </div>
 
             <div class="profile">
-                <img src="https://marketplace.canva.com/EAE2_DLA9H8/1/0/1600w/canva-mascot-character-twitch-profile-picture-wD-8htUsoVw.jpg">
+                <img src="https://www.nosequeestudiar.net/site/assets/files/55272/secretario-secretaria_hr.jpg">
 
                 <div class="info">
                     <h2 class="name">Secretario</h2>
                     <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                     <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="far fa-eye fa-lg" style="color: #1e55b3;"></i>
                     </div>
 
                 </div>
