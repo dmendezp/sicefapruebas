@@ -93,7 +93,7 @@
 
           <div class="bottom-content">
             <li class="">
-                <a href="{{ route('agrocefa.logueo')}}">
+                <a href="{{ route('login')}}">
                     <i class='bx bx-lock-open icon'></i>
                     <span class="text nav-text">login</span>
                 </a>
