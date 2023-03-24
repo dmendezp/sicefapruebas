@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f534c349ba83fc6a36530696c8e7763b13c31f88',
+        'reference' => '9c1499a9c823a55dfa798158e910e9d9b814d053',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -16,6 +16,15 @@
             'reference' => '1ad25434eb321cc208dbd3cecca504bd4f774b57',
             'type' => 'library',
             'install_path' => __DIR__ . '/../alexusmai/laravel-file-manager',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'almasaeed2010/adminlte' => array(
+            'pretty_version' => 'v3.2.0',
+            'version' => '3.2.0.0',
+            'reference' => 'bd4d9c72931f1dd28601b6bfb387554a381ad540',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../almasaeed2010/adminlte',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -433,6 +442,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'jeroennoten/laravel-adminlte' => array(
+            'pretty_version' => 'v3.8.6',
+            'version' => '3.8.6.0',
+            'reference' => '6cb6153e875b3bbf085df0edfed25ceb35cbe2d6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jeroennoten/laravel-adminlte',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -451,7 +469,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'f534c349ba83fc6a36530696c8e7763b13c31f88',
+            'reference' => '9c1499a9c823a55dfa798158e910e9d9b814d053',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -883,8 +901,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(

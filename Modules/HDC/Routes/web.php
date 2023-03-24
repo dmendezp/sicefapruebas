@@ -13,4 +13,7 @@
 
 Route::prefix('/hdc')->group(function() {
     Route::get('/index', 'HDCController@index');
+
+    Route::get('/inicio', [Modules\HDC\Http\Controllers\HDCController::class, 'inicio'])->name('inicio');
+    Route::get('/contacto', [Modules\HDC\Http\Controllers\HDCController::class, 'contacto'])->name('contacto');
 });

@@ -25,5 +25,10 @@ class HomeController extends Controller
         $apps = App::all();
         $data = ['apps'=>$apps];
         return view('home', $data);
+
+    }
+    public function inicio()
+    {
+        return view('inicio');
     }
 }

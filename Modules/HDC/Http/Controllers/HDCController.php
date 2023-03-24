@@ -76,4 +76,12 @@ class HDCController extends Controller
     {
         //
     }
+    public function inicio()
+    {
+        return view('hdc::inicio');
+    }
+    public function contacto()
+    {
+        return view('hdc::contacto');
+    }
 }

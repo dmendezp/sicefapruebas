@@ -1,7 +1,11 @@
 @extends('hdc::layouts.master')
 
 @section('content')
+
+<link rel="stylesheet" href="../hdc/add.css">
+
     <center><h1>HUELLA DE CARBONO</h1></center>
+    
 
     <p>
         Bienvenidos A Huella Cefa
@@ -41,4 +45,5 @@
   </button>
 </div>
 </div>
+
 @endsection
