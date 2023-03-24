@@ -39,6 +39,11 @@
                         <br>
                     </div>
                     <div class="mb-6">
+                        <label for="document_number" class="form-label">Id Vacante</label>
+                        {!! Form::text('document_number',null, ['class'=>'form-control']) !!}
+                        <br>
+                    </div>
+                    <div class="mb-6">
                         <label for="document_number" class="form-label">Hoja de vida</label><br>
                         {!! Form::file('document_number',null, ['class'=>'form-control']) !!}
                         <br><br>

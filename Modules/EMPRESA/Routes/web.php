@@ -17,6 +17,7 @@ Route::prefix('SenaEmpresa2')->group(function() {
     Route::get('Contactos/', 'EMPRESAController@contacts')->name('Contactos');
 
     //Entrevistas
+    Route::get('Entrevistas/Vacantes/', 'InterviewController@vacant')->name('vacant');
     Route::get('Entrevistas/Registros/', 'InterviewController@index')->name('Registros');
     Route::get('Entrevistas/Postulados/', 'InterviewController@postulate')->name('Postulados');
 

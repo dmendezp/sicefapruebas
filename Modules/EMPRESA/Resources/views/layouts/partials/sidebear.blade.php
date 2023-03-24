@@ -63,6 +63,12 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="{{ route('vacant') }}" class="nav-link">
+                        <i class="fas fa-user-secret"></i>
+                      <p>Vacantes</p>
+                    </a>
+                  </li>
               <li class="nav-item">
                 <a href="{{ route('Registros') }}" class="nav-link">
                     <i class="fas fa-user-plus"></i>
@@ -87,7 +93,7 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="{{ route('NuevoPrestamo') }}" class="nav-link">
-                    <i class="fas fa-calendar-plus"></i>
+                    <i class="fas fa-external-link-alt"></i>
                   <p>Nuevo</p>
                 </a>
               </li>

@@ -22,6 +22,11 @@ class InterviewController extends Controller
         $data = ['title'=>'Postulados'];
         return view('empresa::interviews.postulate', $data);
     }
+    public function vacant()
+    {
+        $data = ['title'=>'Vacantes'];
+        return view('empresa::interviews.vacant', $data);
+    }
 
     /**
      * Show the form for creating a new resource.
