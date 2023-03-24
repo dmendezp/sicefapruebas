@@ -35,7 +35,7 @@
             <br>
             <br>
             <div class="card">
-        <button onclick="location.href='http://proyecto.test:8081/LIDretorant'">
+        <button onclick="location.href='http://sicefapruebas.test:8081/bienestar/LIDretorant'">
   <span>ENCARGADO BOLETAS</span>
 </button>
 
