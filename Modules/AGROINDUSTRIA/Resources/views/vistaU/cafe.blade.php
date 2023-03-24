@@ -4,8 +4,6 @@
     
     
 
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/styleU.css')}}">
     
 
     <section class="ganaderia" id="ganaderia">

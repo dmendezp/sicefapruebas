@@ -4,10 +4,25 @@
     
     
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="{{asset('cssagroindustria/style.css')}}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
+    <nav class="navbar navbar-expand-sm navbar-Dark" style="background-color:white;">
+        <a class="navbar-brand" href="#">K I R B I</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Unidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">movimientos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <section class="ganaderia" id="ganaderia">
         <div class="container">
@@ -15,28 +30,82 @@
                 <span class="fil">B</span>ienvenid@s
             </h2>
             <h1 class="head">Agroindustrial</h1>
-            <div class="he-des">
-                <h5>Cefa</h5>
-                <button class="learn-more"> Mas Informacion
-</button>
-            </div>
         </div>
             </section>
-            <section>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{asset('imgagroindustria/3.jpg')}}" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="{{asset('imgagroindustria/2.jpg')}}" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="{{asset('imgagroindustria/3.jpg')}}" class="d-block w-100" alt="...">
-    </div>
-  </div>
+
+    <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <center>
+            <div class="card mb-3" >
+                <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="{{asset('imgagroindustria/foto1.jpg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                     <div class="col-md-8">
+                <div class="card-body">
+                        <h1 class="card-title">Nosotros</h1>
+                        <p class="card-text">TLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                        not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.</p>
+                </div>
+            </div>
+        </div>
 </div>
-            </section>
+<br>
+            </center>
+            <div class="container">
+            <div class="profile">
+                <img src="{{asset('imgagroindustria/db.jpeg')}}" alt="John" style="width:100%">
+                <h1>Diego Bonilla</h1>
+                    <p class="title">CEO & Founder, Example</p>
+                    <p>Harvard University</p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button>Contact</button></p>
+            </div>
+            <div class="profile">
+                <img src="{{asset('imgagroindustria/jh.jpg')}}" alt="John" style="width:100%">
+                <h1>Julian Ramirez</h1>
+                    <p class="title">CEO & Founder, Example</p>
+                    <p>Que Bendicion ve</p>
+                    <p>Harvard University</p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button>Contact</button></p>
+            </div>
+            <div class="profile">
+                <img src="{{asset('imgagroindustria/cadena.jpeg')}}" alt="John" style="width:100%">
+                <h1>David Cadena</h1>
+                    <p class="title">CEO & Founder, Example</p>
+                    <p>Harvard University</p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button>Contact</button></p>
+            </div>
+            <div class="profile">
+                <img src="{{asset('imgagroindustria/marin.jpeg')}}" alt="John" style="width:100%">
+                <h1>Jennifer Marin</h1>
+                    <p class="title">CEO & Founder, Example</p>
+                    <p>Harvard University</p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><button>Contact</button></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
            
            
     <footer>
