@@ -30,17 +30,15 @@
 
 <!-- tittle -->
   <section class="one">
-         <center>
              <div class="container">
                 <div class="banner">
                 <h2 class="bienvenido">
-                        <span class="two">U</span>nidades
+                        Unidades
                     </h2>
                     <h2 class="agrtittle">Productivas</h2>
-                </div>
-                <img class="imglogo" src="{{asset('../imgagroindustria/logo1.png')}}" alt="">  
+                    </div>
+                    <img class="imglogo" src="{{asset('imgagroindustria/logo1.png')}}" alt="">  
              </div>
-         </center>
   </section>
 <!-- /tittle -->
 
