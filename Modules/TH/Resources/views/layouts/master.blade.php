@@ -13,19 +13,15 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-       {{-- Laravel Mix - CSS File --}}
-       {{-- <link rel="stylesheet" href="{{ mix('css/th.css') }}"> --}}
+       <link rel="stylesheet" href="{{asset('style/estilos.css')}}">
 
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            @include('layouts.navigation')
+            @include('th::layouts.navigation')
 
             <div class="container">
                 @yield('content')
             </div>
-
-        {{-- Laravel Mix - JS File --}}
-        {{-- <script src="{{ mix('js/th.js') }}"></script> --}}
     </body>
 </html>

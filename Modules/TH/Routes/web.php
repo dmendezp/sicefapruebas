@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Modules\TH\Http\Controllers\THController;
 
 Route::prefix('/th')->group(function() {
     Route::get('/index', 'THController@index');

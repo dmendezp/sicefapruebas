@@ -1,0 +1,28 @@
+body{
+    background: #07062E;
+}
+.x{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.x ul li a{
+    text-decoration: none;
+    color: #666586;
+    font-weight: bold;
+}
+.x ul li a:hover{
+    color: white;
+}
+.f{
+    width: 21px;
+}

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('th::layouts.master')
 @section('content')
 <style>
 .grid-container {
