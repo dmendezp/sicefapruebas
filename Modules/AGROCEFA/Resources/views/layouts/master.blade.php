@@ -69,7 +69,7 @@
                   </li>
 
                   <li class="nav-link">
-                      <a href="#">
+                      <a href="{{route('agrocefa.bodegas')}}">
                         <i class='bx bx-store-alt icon'></i>
                           <span class="text nav-text">Bodegas</span>
                       </a>
@@ -93,7 +93,7 @@
 
           <div class="bottom-content">
             <li class="">
-                <a href="{{ route('login')}}">
+                <a href="{{ route('agrocefa.logueo')}}">
                     <i class='bx bx-lock-open icon'></i>
                     <span class="text nav-text">login</span>
                 </a>

@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('/agrocefa')->group(function() {
     Route::get('/index', 'AGROCEFAController@index')->name('agrocefa.index');
     Route::get('/inventory', 'AGROCEFAController@inventory')->name('agrocefa.inventory');
+    Route::get('/logueo', 'AGROCEFAController@logueo')->name('agrocefa.logueo');
+    Route::get('/bodegas', 'AGROCEFAController@bodega')->name('agrocefa.bodegas');
 });

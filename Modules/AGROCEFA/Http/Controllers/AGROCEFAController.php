@@ -17,6 +17,25 @@ class AGROCEFAController extends Controller
         return view('agrocefa::index');
     }
      /**
+    
+    * /**
+     * Display a listing of the resource.
+     * @return Renderable
+     */
+    public function logueo()
+    {
+        return view('agrocefa::logueo');
+    }
+     /**
+      * /**
+     * Display a listing of the resource.
+     * @return Renderable
+     */
+    public function bodega()
+    {
+        return view('agrocefa::formulariocultivo');
+    }
+     /**
      * Display a listing of the resource.
      * @return Renderable
      */
