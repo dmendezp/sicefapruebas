@@ -24,6 +24,7 @@
       <th scope="col">Apellidos</th>
       <th scope="col">Hora de ingreso</th>
       <th scope="col">Hora de salida</th>
+      <th scope="col">Rol</th>
     </tr>
   </thead>
   <tbody>
@@ -33,6 +34,7 @@
       <td>Salazar</td>
       <td>7:00</td>
       <td>16:00</td>
+      <td>Aprendiz</td>
     </tr>
     <tr>
       <th scope="row">456 </th>
@@ -40,6 +42,7 @@
       <td>Guzman</td>
       <td>8:00</td>
       <td>15:30</td>
+      <td>Aprendiz</td>
     </tr>
     <tr>
       <th scope="row">789</th>
@@ -47,6 +50,7 @@
       <td>Castañeda</td>
       <td>8:00</td>
       <td>15:30</td>
+      <td>Aprendiz</td>
     </tr>
     
   </tbody>
