@@ -24,6 +24,44 @@ class BIENESTARController extends Controller
     {
         return view('bienestar::APEinterno');
     }
+    public function APEsena()
+    {
+        return view('bienestar::APEsena');
+    }
+    public function APEtransporte()
+    {
+        return view('bienestar::APEtransporte');
+    }
+    public function HISeventos()
+    {
+        return view('bienestar::HISeventos');
+    }
+    public function home()
+    {
+        return view('bienestar::home');
+    }
+    public function LIDretorant()
+    {
+        return view('bienestar::LIDretorant');
+    }
+    public function SCANrestorant()
+    {
+        return view('bienestar::SCANrestorant');
+    }
+    public function SCANrutas()
+    {
+        return view('bienestar::SCANrutas');
+    }
+    public function APEformulario()
+    {
+        return view('bienestar::APEformulario');
+    }
+    public function LIDrutas()
+    {
+        return view('bienestar::LIDrutas');
+    }
+    
+    
 
     /**
      * Show the form for creating a new resource.
