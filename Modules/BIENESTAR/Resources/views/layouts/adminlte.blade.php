@@ -14,11 +14,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ asset('../bienestarxd/AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css') }}">
   <!-- Theme style -->
+  <!-- fullCalendar -->
+  <link rel="stylesheet" href="{{ asset('AdminLTE-3.2.0/plugins/fullcalendar/main.css') }}">
   <link rel="stylesheet" href="{{ asset('../bienestarxd/AdminLTE-3.2.0/dist/css/adminlte.min.css') }}">
     <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymoues"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!--styles-->
+        <!-- fullCalendar -->
+  <link rel="stylesheet" href="{{ asset('bienestarxd/AdminLTE-3.2.0/plugins/fullcalendar/main.css') }}">
+
   <link rel="stylesheet" href="{{ asset('bienestarxd/AdminLTE-3.2.0/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('bienestarxd/AdminLTE-3.2.0/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('bienestarxd/AdminLTE-3.2.0/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
@@ -81,46 +86,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-
-                        <!-- Authentication Links -->
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">{{ __('Login') }}</a>
-                                </li>
-                            @endif
-
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                        
+         
                     
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('bienestar.APEsena') }}" class="nav-link">
               <i class="fas fa-user"></i>
               <p>
                 Aprendices
@@ -144,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('bienestar.APEtransporte') }}" class="nav-link">
               <i class="fas fa-bus"></i>
               <p>
                 Transporte
@@ -152,10 +121,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('bienestar.HISeventos') }}" class="nav-link">
               <i class="fas fa-calendar-day"></i>
               <p>
                 Eventos
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('bienestar.APEformulario') }}" class="nav-link">
+              <i class="fas fa-clipboard-list"></i>
+              <p>
+                Convocatorias Apoyos
               </p>
             </a>
           </li>
@@ -216,7 +193,29 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="{{ asset('../bienestarxd/AdminLTE-3.2.0/dist/js/adminlte.min.js') }}"></script>
 <!-- js general -->
 <script src="{{ asset('../bienestarxd/js/script.js') }}"></script>
+<!-- fullCalendar 2.2.5 -->
+<script src="{{ asset('../bienestarxd/AdminLTE-3.2.0/plugins/moment/moment.min.js') }}"></script>
+<script src="{{ asset('../bienestarxd/AdminLTE-3.2.0/plugins/fullcalendar/main.js') }}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{ asset('../bienestarxd/AdminLTE-3.2.0/dist/js/demo.js') }}"></script>
+<!-- Page specific script -->
+
 @section('script')
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      timeZone: 'UTC',
+      initialView: 'dayGridMonth',
+      events: 'https://fullcalendar.io/api/demo-feeds/events.json',
+      editable: true,
+      selectable: true
+    });
+
+    calendar.render();
+  });
+</script>
 @show
 
 </body>
