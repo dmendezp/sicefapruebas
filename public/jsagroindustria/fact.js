@@ -38,14 +38,3 @@ function calc()
     });
 }
 
-function calc_total()
-{
-    total=0;
-    $('.total').each(function() {
-        total += parseInt($(this).val());
-    });
-    $('#sub_total').val(total.toFixed(1));
-    tax_sum=total/100*$('#tax').val();
-    $('#tax_amount').val(tax_sum.toFixed(2));
-    $('#total_amount').val((tax_sum+total).toFixed(2));
-}

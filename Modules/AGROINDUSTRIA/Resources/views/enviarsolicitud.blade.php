@@ -11,14 +11,12 @@
      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <section class="ganaderia" id="ganaderia">
         <div class="container">
-            <h2 class="h2-sub1">
-                <span class="fil">B</span>ienvenido
-            </h2>
-            <h1 class="head">Agroindustria</h1>
+            <h1>SERVICIO NACIONAL DE APRENDIZAJE SENA
+                GESTIÓN DE INFRAESTRUCTURA Y LOGÍSTICA
+                FORMATO SOLICITUD DE BIENES</h1>
             <div class="he-des">
                 <h5>Cefa</h5>
-                <button class="learn-more"> Mas Informacion
-</button>
+
             </div>
         </div>
         </section>
@@ -88,8 +86,6 @@
                         <br>
                     </div>
 
-                    {!! Form::submit('Enviar',['class' => 'btn btn-warning','name' => 'enviar']) !!}
-                    {!! Form:: close() !!}
                 </div>
             </div>
         </div>
@@ -105,8 +101,7 @@
               <th class="text-center"> # </th>
               <th class="text-center"> Detalle Producto </th>
               <th class="text-center"> Cantidad </th>
-              <th class="text-center"> Precio Unitaro </th>
-              <th class="text-center"> Precio Total Producto</th>
+
             </tr>
           </thead>
           <tbody>
@@ -114,8 +109,6 @@
               <td>1</td>
               <td><input type="text" name='product[]'  placeholder='Descripción' class="form-control"/></td>
               <td><input type="number" name='qty[]' placeholder='Ingrese Cantidad' class="form-control qty" step="0" min="0"/></td>
-              <td><input type="number" name='price[]' placeholder='Ingrese Precio Unitario' class="form-control price" step="0.00" min="0"/></td>
-              <td><input type="number" name='total[]' placeholder='0.00' class="form-control total" readonly/></td>
             </tr>
             <tr id='addr1'></tr>
           </tbody>
@@ -129,8 +122,13 @@
       </div>
     </div>
   </div>
-    <script src="{{ asset('js/fact.js') }}"></script>
+  <center>
+    {!! Form::submit('Enviar',['class' => 'btn btn-warning','name' => 'enviar']) !!}
+    {!! Form:: close() !!}
+    </center>
+    <script src="{{ asset('jsagroindustria/js/fact.js') }}"></script>
     <br>
+
 
 
 
