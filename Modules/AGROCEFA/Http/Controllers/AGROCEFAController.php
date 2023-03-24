@@ -18,15 +18,6 @@ class AGROCEFAController extends Controller
     }
      /**
     
-    * /**
-     * Display a listing of the resource.
-     * @return Renderable
-     */
-    public function logueo()
-    {
-        return view('agrocefa::logueo');
-    }
-     /**
       * /**
      * Display a listing of the resource.
      * @return Renderable

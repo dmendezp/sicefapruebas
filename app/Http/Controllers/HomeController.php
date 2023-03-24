@@ -26,4 +26,9 @@ class HomeController extends Controller
         $data = ['apps'=>$apps];
         return view('home', $data);
     }
+
+    public function ambiental()
+    {
+        return view('ambiental.index');
+    }
 }

@@ -69,14 +69,22 @@
                   </li>
 
                   <li class="nav-link">
+<<<<<<< HEAD
                       <a href="#">
+=======
+                      <a href="{{route('agrocefa.bodegas')}}">
+>>>>>>> 273128e775eb52b722c2df125940595fa491eb41
                         <i class='bx bx-store-alt icon'></i>
                           <span class="text nav-text">Bodegas</span>
                       </a>
                   </li>
 
                   <li class="nav-link">
+<<<<<<< HEAD
                       <a href="{{route('agrocefa.insumos')}}">
+=======
+                      <a href="#">
+>>>>>>> 273128e775eb52b722c2df125940595fa491eb41
                           <i class='bx bx-leaf icon' ></i>
                           <span class="text nav-text">Insumos</span>
                       </a>

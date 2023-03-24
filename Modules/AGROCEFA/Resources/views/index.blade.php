@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Fondo animado</title>
 
 </head>
 <body>
@@ -18,14 +18,12 @@
 
 	<section class="banner">
 		<div class="banner-content">
-			<h1>Bienvenido a la aplicacion AGRO</h1>	
+			<h1>Bienvenido a la aplicación AGROCEFA</h1>	
 		</div>
 	</section>
 
     <br>
     <br>
-
-    
     <br>
 
     <footer>
