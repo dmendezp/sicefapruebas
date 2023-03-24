@@ -8,7 +8,7 @@
     
 
     <p>
-        Bienvenidos A Huella Cefa
+        Bienvenidos A Huella de Carbono Cefa
     </p>
     <br>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
