@@ -9,7 +9,7 @@ integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CX
 <div class="container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="notresult.php"><p style="color: greenyellow;">Dicsena</p></a>
+      <a class="navbar-brand" href="notresult.blade.php"><p style="color: greenyellow;">Dicsena</p></a>
     </div>
     <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -44,8 +44,13 @@ integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CX
   <div class="card-body">
     <h5 class="card-title">PALABRA BUSCADA</h5>
     <ul class="list-group list-group-flush"></ul>
-    <p style="color green">su significado es </p>
-    <button class="neon-button" onclick="translateText()">Traducir</button>
+    <p style="color:red">lo sentimos no alojamos esa palabra en nuestro diccionario</p>
+    <form>
+  <label for="comentario">Escribe tu comentario:</label><br>
+  <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
+  <button type="submit">Enviar</button>
+</form>
+
 
     
     </div>

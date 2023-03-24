@@ -14,3 +14,4 @@
 Route::prefix('dicsena')->group(function() {
     Route::get('/', 'DicsenaController@index');
 });
+
