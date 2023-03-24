@@ -21,6 +21,7 @@
             <div class="cardi">
     <div class="imgi-container">
         <div class="imgi">
+        <img src=" {{ asset('../imginventario/veneno.jpg') }}" width="100%">
         </div>
         <div class="description cardi">
             <span class="titlei">
@@ -37,7 +38,7 @@
             <div class="cardi">
     <div class="imgi-container">
         <div class="imgi">
-        <img src=" {{ asset('../imginventario/tierra.jpg') }}" width="100%">
+        <img src=" {{ asset('../imginventario/descarga.jpeg') }}" width="100%">
         </div>
         <div class="description cardi">
             <span class="titlei">
