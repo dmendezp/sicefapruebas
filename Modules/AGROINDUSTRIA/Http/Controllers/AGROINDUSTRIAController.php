@@ -26,6 +26,11 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::movimientos');
     }
 
+    public function solicitud()
+    {
+        return view('agroindustria::solicitud');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Renderable
