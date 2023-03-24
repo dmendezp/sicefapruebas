@@ -13,6 +13,8 @@
 
 Route::prefix('/agroindustria')->group(function() {
     Route::get('/index', 'AGROINDUSTRIAController@index');
+
+    Route::get('/unidd', 'AGROINDUSTRIAController@unidd');
+
+    Route::get('/movimientos', 'AGROINDUSTRIAController@movimientos');
 });
-
-

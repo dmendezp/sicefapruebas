@@ -17,6 +17,15 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::index');
     }
 
+    public function unidd()
+    {
+        return view('agroindustria::unidd');
+    }
+    public function movimientos()
+    {
+        return view('agroindustria::movimientos');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Renderable
@@ -56,6 +65,7 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::edit');
     }
 
+    
     /**
      * Update the specified resource in storage.
      * @param Request $request
