@@ -8,6 +8,9 @@
 
        {{-- Laravel Mix - CSS File --}}
        {{-- <link rel="stylesheet" href="{{ mix('css/agroindustria.css') }}"> --}}
+       <script src="https://kit.fontawesome.com/6364639265.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="{{asset('cssagroindustria/styleinvb.css')}}">
 
     </head>
     <body>
