@@ -36,6 +36,11 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::invb');
     }
 
+    public function enviarsolicitud()
+    {
+        return view('agroindustria::enviarsolicitud');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Renderable
@@ -75,7 +80,7 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::edit');
     }
 
-    
+
     /**
      * Update the specified resource in storage.
      * @param Request $request

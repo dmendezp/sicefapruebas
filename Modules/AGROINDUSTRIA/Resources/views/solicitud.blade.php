@@ -1,12 +1,12 @@
 @extends('agroindustria::layouts.master')
 
 @section('content')
-    
-    
+
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
+
 
     <section class="ganaderia" id="ganaderia">
         <div class="container">
@@ -20,16 +20,16 @@
 </button>
             </div>
         </div>
-        
-        
-     
+
+
+
             </section>
 
         <section class="taste bt">
             <div class="container">
                 <div class="global">
-                    <h1 class="head111">SOLICITUDES</h1> 
-                    <div class="container">  
+                    <h1 class="head111">SOLICITUDES</h1>
+                    <div class="container">
                         <div class="row">
                             <div class="col-6">
                                 <form action="formunidad" method="get">
@@ -37,36 +37,36 @@
                                 </form>
                             </div>
                             <div class="col-6">
-                                <form action="formagroindustria" method="get">
+                                <form action="enviarsolicitd" method="get">
                                     <button type="submit" class="unidades2">AGROINDUSTRIA</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
 
-       
 
 
 
 
-        
-    
+
+
+
 
 
 <!--//--------------------------------------------------------------------------------------------------------//-->
-      
 
-        
-        
+
+
+
 
     <footer>
         <div class="container">
             <div class="footer-content">
 
-                
+
                 <div class="footer-div">
                     <div class="social-media">
 
@@ -83,7 +83,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                     </div>
                 </div>
 
