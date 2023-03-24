@@ -18,14 +18,12 @@
 
 	<section class="banner">
 		<div class="banner-content">
-			<h1>Bienvenido a la aplicaion AGRO</h1>	
+			<h1>Bienvenido a la aplicación AGROCEFA</h1>	
 		</div>
 	</section>
 
     <br>
     <br>
-
-    
     <br>
 
     <footer>

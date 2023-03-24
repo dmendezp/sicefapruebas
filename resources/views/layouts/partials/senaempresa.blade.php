@@ -33,7 +33,7 @@
 
                         <li>
                             <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                class="collapsed"><span>02</span> Msión <i
+                                class="collapsed"><span>02</span> Misión <i
                                     class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
@@ -76,6 +76,19 @@
                                     Operación del sistema productivo de tipo agropecuario o agroindustrial. Competencias
                                     comportamentales.
                                 </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5"
+                                class="collapsed"><span>05</span> Conservación del medio Ambiente <i
+                                    class="bx bx-chevron-down icon-show"></i><i
+                                    class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                                <p>
+                                    Consiste en la buena clasificación del los residuos sólidos en el centro de formación Agroindustrial.
+                                </p>
+                                <a href="{{ route('cefa.ambiental')}}" type="button" class="btn btn-primary">Más Información</a>
                             </div>
                         </li>
 
