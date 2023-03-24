@@ -1,0 +1,117 @@
+[33mcommit fa3901ecb80af2e1e8322f8d581cc1f955708939[m[33m ([m[1;36mHEAD -> [m[1;32magroindustria[m[33m)[m
+Merge: 925d8699 dc6ebafa
+Author: Julianchiki <julianjavierramirezdiaz73@gmail.com>
+Date:   Fri Mar 24 09:09:03 2023 -0500
+
+    rutas
+
+[33mcommit dc6ebafab8bc609b9f0b560062005014dce484d5[m
+Merge: de4b27c3 82066cb6
+Author: Jennyferm05 <jennyfermarin05@gmail.com>
+Date:   Fri Mar 24 09:07:03 2023 -0500
+
+    cambio de rutas
+
+[33mcommit de4b27c3c0fb346cc40293b8d97e9722e95d98dc[m
+Author: Jennyferm05 <jennyfermarin05@gmail.com>
+Date:   Fri Mar 24 09:05:31 2023 -0500
+
+    cambio de rutas
+
+[33mcommit 925d8699def135d76368d99d5f277ee803f3a8c6[m
+Merge: d9f084cd 82066cb6
+Author: Julianchiki <julianjavierramirezdiaz73@gmail.com>
+Date:   Fri Mar 24 09:02:11 2023 -0500
+
+    Cambio de rutas
+
+[33mcommit d9f084cdd705371986173808159d5790fcc48180[m
+Author: Julianchiki <julianjavierramirezdiaz73@gmail.com>
+Date:   Fri Mar 24 09:00:13 2023 -0500
+
+    Cambio de rutas
+
+[33mcommit 82066cb6aa5eceb27542e0f3f22928280e622472[m
+Author: C4DENA <acadenacuellar2002@gmail.com>
+Date:   Fri Mar 24 08:59:07 2023 -0500
+
+    rutas y styles
+
+[33mcommit df25a19c8ff59d38f50537ec425c6890ed0c643d[m
+Author: C4DENA <acadenacuellar2002@gmail.com>
+Date:   Fri Mar 24 08:28:00 2023 -0500
+
+    Mas vistas
+
+[33mcommit eb6fa47e6ab350c09a3b771b990651e3bdcd4b71[m
+Author: Jennyferm05 <jennyfermarin05@gmail.com>
+Date:   Wed Mar 22 14:30:09 2023 -0500
+
+    Cambio de la palabra bienvenidos
+
+[33mcommit 2443c6f82e02de4eb436bc684819664998d964e9[m
+Author: Dbonilla03 <juandiegobonillaaroca@gmail.com>
+Date:   Mon Mar 20 14:07:20 2023 -0500
+
+    se agrego una letra
+
+[33mcommit 2bcd61fa56991afbcaf15335504baec7ab20ebb2[m
+Author: Julianchiki <julianjavierramirezdiaz73@gmail.com>
+Date:   Sat Mar 18 20:53:09 2023 -0500
+
+    Cambio de color del h1 'Agroindustria'
+
+[33mcommit 324fbf76fc998e695bb0d8b5d5ebcefe2c65a3c1[m
+Author: C4DENA <acadenacuellar2002@gmail.com>
+Date:   Sat Mar 18 19:57:01 2023 -0500
+
+    index agroindustria (vista principal)
+
+[33mcommit acc0003c4cb0fbd928905a89890bc13ef782cb8c[m
+Merge: 423ad024 159f5828
+Author: C4DENA <acadenacuellar2002@gmail.com>
+Date:   Sat Mar 18 19:09:23 2023 -0500
+
+    Merge branch 'agroindustria' of https://github.com/dmendezp/sicefapruebas into agroindustria
+
+[33mcommit 159f582858fa681651913873385651e13b5f357b[m
+Author: Julianchiki <julianjavierramirezdiaz73@gmail.com>
+Date:   Sat Mar 18 18:07:47 2023 -0500
+
+    Creacion del modulo AGROINDUSTRIA
+
+[33mcommit a5f9e5ca25db5b44c26d68685cc2077d93f89365[m
+Merge: 9a693b4e eda563a0
+Author: Julianchiki <128052450+Julianchiki@users.noreply.github.com>
+Date:   Sat Mar 18 16:22:08 2023 -0500
+
+    Merge pull request #10 from dmendezp/main
+    
+    Clonación
+
+[33mcommit 423ad024ad0397cb53f0b746a51a22828cde8c92[m
+Merge: 9a693b4e eda563a0
+Author: Julianchiki <128052450+Julianchiki@users.noreply.github.com>
+Date:   Fri Mar 17 21:58:53 2023 -0500
+
+    Merge pull request #9 from dmendezp/main
+    
+    Migracion BD
+
+[33mcommit eda563a054aa320bb8f5a65e04eb9e654b474abd[m
+Author: dmendezp <dmendezp@sena.edu.co>
+Date:   Fri Mar 17 14:12:17 2023 -0500
+
+    fix migrations
+
+[33mcommit 8c1146ed478e45a6acf0c2b87f20000112a90143[m
+Author: dmendezp <dmendezp@sena.edu.co>
+Date:   Fri Mar 17 10:02:33 2023 -0500
+
+    Conexion DB
+
+[33mcommit 9a693b4ea0a8890cf24ac2513039aacf82ca60dd[m
+Author: Diego Andres Mendez <dmendezp@sena.edu.co>
+Date:   Fri Mar 17 08:26:27 2023 -0500
+
+    first commit

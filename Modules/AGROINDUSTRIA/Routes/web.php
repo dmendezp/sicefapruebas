@@ -19,4 +19,6 @@ Route::prefix('/agroindustria')->group(function() {
     Route::get('/movimientos', 'AGROINDUSTRIAController@movimientos');
 
     Route::get('/solicitud', 'AGROINDUSTRIAController@solicitud');
+
+    Route::get('/invb', 'AGROINDUSTRIAController@invb');
 });

@@ -31,6 +31,11 @@ class AGROINDUSTRIAController extends Controller
         return view('agroindustria::solicitud');
     }
 
+    public function invb()
+    {
+        return view('agroindustria::invb');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Renderable
