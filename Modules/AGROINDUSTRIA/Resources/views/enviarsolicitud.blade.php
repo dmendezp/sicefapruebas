@@ -29,7 +29,7 @@
                 <div class="card-header">SOLICITUD DE BIENES</div>
 
                 <div class="card-body">
-                    {!! Form::open(['url' => route('enviarsolicitud')]) !!}
+                    {!! Form::open(['url' => route('agroindustria.enviarsolicitud')]) !!}
                     <div class="mb-6">
                         <label for="document_number" class="form-label">Fecha de Solicitud</label>
                         {!! Form::date('document_number',null, ['class'=>'form-control']) !!}

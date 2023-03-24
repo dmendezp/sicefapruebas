@@ -21,10 +21,6 @@ class AGROINDUSTRIAController extends Controller
     {
         return view('agroindustria::unidd');
     }
-    public function movimientos()
-    {
-        return view('agroindustria::movimientos');
-    }
 
     public function solicitud()
     {

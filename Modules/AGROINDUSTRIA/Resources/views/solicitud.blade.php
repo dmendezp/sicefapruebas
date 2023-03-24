@@ -37,9 +37,9 @@
                                 </form>
                             </div>
                             <div class="col-6">
-                                <form action="enviarsolicitd" method="get">
-                                    <button type="submit" class="unidades2">AGROINDUSTRIA</button>
-                                </form>
+                            {!! Form::open(['url'=> route('agroindustria.enviarsolicitud')])!!}
+                                    <button class="unidades2">AGROINDUSTRIA</button>
+                            {!! Form::close() !!}
                             </div>
                         </div>
                     </div>

@@ -12,15 +12,13 @@
 */
 
 Route::prefix('/agroindustria')->group(function() {
-    Route::get('/index', 'AGROINDUSTRIAController@index');
+    Route::get('/index', 'AGROINDUSTRIAController@index')->name('agroindustria.index');
 
-    Route::get('/unidd', 'AGROINDUSTRIAController@unidd');
+    Route::get('/unidd', 'AGROINDUSTRIAController@unidd')->name('agroindustria.unidd');
 
-    Route::get('/movimientos', 'AGROINDUSTRIAController@movimientos');
+    Route::get('/solicitud', 'AGROINDUSTRIAController@solicitud')->name('agroindustria.solicitud');
 
-    Route::get('/solicitud', 'AGROINDUSTRIAController@solicitud');
+    Route::get('/invb', 'AGROINDUSTRIAController@invb')->name('agroindustria.invb');
 
-    Route::get('/invb', 'AGROINDUSTRIAController@invb');
-
-    Route::get('/enviarsolicitud', 'AGROINDUSTRIAController@enviarsolicitud')->name('enviarsolicitud');
+    Route::post('/enviarsolicitud', 'AGROINDUSTRIAController@enviarsolicitud')->name('agroindustria.enviarsolicitud');
 });
